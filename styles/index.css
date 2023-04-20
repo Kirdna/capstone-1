@@ -1,25 +1,27 @@
 *{
+
     margin: 0;
     padding: 0;
 }
 
-body {
-	background-color: #000;
-}
 
-.court{
-    
-    background:url(images/volleyball_court.webp);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+html {
+
+    height: 50%;
 	width: 100%;
 }
-.navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
+
+main{
+    background-color: #000;
+    background: url(/images/volleyball_court.webp);
+    background-position: center;
+    background-size: cover;
 }
+
+body{
+    background-color: #000;
+}
+
 .icon{
     width: 200px;
     float: left;
@@ -32,55 +34,12 @@ body {
     padding-left: 30px;
     float: left;
     padding-top: 0px;
-    margin-top: 0px
+    margin-top: 0px;
+    height: 80px;
+    width: 120px;
+
 }
-.menu{
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-ul{
-    float: left;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-ul li{
-    list-style: none;
-    margin-left: 65px;
-    margin-top: 27px;
-    font-size: 14px;
-}
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-ul li a:hover{
-    color: #ff7200;
-}
-.search{
-    width: 330px;
-    float: left;
-    margin-left: 270px;
-}
-.srch{
-    font-family: 'Open Sans', sans-serif;
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border: 1px solid #ff7200;
-    margin-top: 13px;
-    color: #fff;
-    border-right: none;
-    font-size: 16px;
-    float: left;
-    padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
+
 .btn{
     width: 100px;
     height: 40px;
@@ -103,27 +62,14 @@ ul li a:hover{
 .srch:focus{
     outline: none;
 }
-.content .JOIN{
+.JOIN{
     width: 1200px;
     height: auto;
     margin: auto;
     color: #fff;
     position: relative;
 }
-.content .par{
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1.2px;
-    line-height: 30px;
-}
-.content h1{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
-    padding-left: 20px;
-    margin-top: 9%;
-    letter-spacing: 2px;
-}
+
 .content .JOIN{
     width: 160px;
     height: 40px;
@@ -134,9 +80,9 @@ ul li a:hover{
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
-    transition: .4s ease;
-    
+    transition: .4s ease; 
 }
+
 .content .JOIN a{
     text-decoration: none;
     color: #000;
@@ -145,9 +91,32 @@ ul li a:hover{
 .JOIN:hover{
     background-color: #fff;
 }
-.content span{
+
+.paragraph{
+    color: #fff;
+    padding-left: 20px;
+    padding-bottom: 200px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    padding-top: 12%;
+}
+h1{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+span{
     color: #ff7200;
-    font-size: 65px
+    font-size: 65px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 ::placeholder{
@@ -160,28 +129,8 @@ ul li a:hover{
 @media screen and (max-width:1200px) {
     /*Normal Screen*/
 
-    .navbar{
-        width: 100%;
-        height: 100px;
-    }
-    ul{
-        margin-left: 30px;
-    }   
-    ul li{
-        margin-left: 60px;
-    }
-    ul li a{
-       font-size: 1.6vw; 
-    }
-    .search{
-        margin-top: 3px;
-        margin-left: 290px;
-    }
-    .srch{
-        height: 40px;
-        width: 190px;
-        font-size: 14px;
-    }
+   
+
     .btn{
         height:40px;
         width: 80px;
@@ -213,48 +162,17 @@ ul li a:hover{
         padding-left: 20px;
         height: 180vh;
     }
-    .form{
-        margin-left: -30px;
-        width: 250px;
-        height: 370px;
-        background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
-        position: absolute;
-        top: 420px;
-        left: 50px;
-        transform: translate(0%,-5%);
-        border-radius: 10px;
-        padding: 25px;
-    }
-    .form input{
-        width: 240px;
-        height: 35px;
-        background: transparent;
-        border-bottom: 1px solid #ff7200;
-        border-top: none;
-        border-right: none;
-        border-left: none;
-        color: #fff;
-        font-size: 15px;
-        letter-spacing: 1px;
-        margin-top: 30px;
-        font-family: sans-serif;
-    }
+   
     .btnn a{
         font-size: 16px;
     }
-    .form .link a{
-        font-size: 16px;
-    }
+
 }
 
 @media screen and (max-width: 830px){
     /*For tablet*/
    
-    .content{
-        margin-top: 120px;
-        width: 80%;   
-        margin-left: 40px;  
-    }
+    
     .content h1, .content span{
         font-size: 6vw; 
     }
@@ -272,32 +190,12 @@ ul li a:hover{
     }
     .logo{
         margin-left: 240px;
-        width: 100%;
-        margin-top: 15px;
+        margin-top: 5px;
         font-size: 5vw;
+        width: 200px;
+        height: 150px;
     }
-    .menu{
-        width: 100%;
-    }
-    ul{
-        margin-top: -5px;
-        margin-left: 5px;
-    }
-    ul li{
-        margin-left: 60px;
-    }
-    ul li a{
-       font-size: 2vw; 
-    }
-    .search{
-        margin-top: -20px;
-        margin-left: 60px;   
-    }   
-    .srch{
-        height: 30px;
-        width: 160px;
-        font-size: 12px;
-    }
+   
     .btn{
         height:30px;
         width: 70px;
@@ -320,24 +218,12 @@ ul li a:hover{
         margin-top: 80px;
         margin-left: 20px;
     }
-    .search{
-        margin-top: -40px;
-        margin-left: 42px;
-    }
+
     .logo{
         margin-left: 180px;
         font-size: 4vw;
     }
-    ul{
-        margin-top: -25px;
-        margin-left: -5px;
-    }
-    ul li {
-        margin-left: 50px;
-    }
-    ul li a{
-        font-size: 2vw;
-    }   
+  
 }
 
 @media screen and (max-width: 450px){
@@ -346,18 +232,6 @@ ul li a:hover{
         margin-left: 140px;
         font-size: 4vw;
     }
-    ul{
-        margin-top: -25px;
-    }
-    ul li {
-        margin-left: 42px;
-    }
-    ul li a{
-        font-size: 2vw;
-    }  
-    .search{
-        margin-top: -40px;
-        margin-left: 38px;
-    } 
+
 
 }
