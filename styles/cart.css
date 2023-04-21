@@ -10,7 +10,9 @@ main {
     color: rgb(255, 136, 0) !important;
 }
 
-
+.nav-link{
+    color: orange;
+}
 
 
 .bg-primary {

@@ -39,6 +39,10 @@ body{
 
 }
 
+.nav-link{
+    color: orange;
+}
+
 .btn{
     width: 100px;
     height: 40px;

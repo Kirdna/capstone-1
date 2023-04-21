@@ -4,6 +4,10 @@ body {
   background-color: #ff8901;
 }
 
+.nav-link{
+  color: orange;
+}
+
 .btn-success {
   --bs-btn-color: #fff;
   --bs-btn-bg: #ff8901;
