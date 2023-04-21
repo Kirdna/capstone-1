@@ -1,0 +1,33 @@
+main {
+    background-image: url(/images/volleyball-blurry.jpg);
+    color: rgb(255, 136, 0);
+    font-weight: bold;
+    padding-left: 4%;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgb(255, 136, 0) !important;
+}
+
+
+
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(255, 149, 0) !important;
+}
+
+.list-group-item-last {
+    position: relative;
+    display: block;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: rgb(255, 162, 0);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+
+.form-check {
+    text-align: left;
+}
